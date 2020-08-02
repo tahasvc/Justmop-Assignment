@@ -1,0 +1,34 @@
+C:\Users\developer\source\repos\Justmop Assignment\Question 1\Solution 1\Solution 1 Data\bin\Debug\Solution 1 Data.dll.config
+C:\Users\developer\source\repos\Justmop Assignment\Question 1\Solution 1\Solution 1 Data\bin\Debug\Solution 1 Data.dll
+C:\Users\developer\source\repos\Justmop Assignment\Question 1\Solution 1\Solution 1 Data\bin\Debug\Solution 1 Data.pdb
+C:\Users\developer\source\repos\Justmop Assignment\Question 1\Solution 1\Solution 1 Data\bin\Debug\EntityFramework.dll
+C:\Users\developer\source\repos\Justmop Assignment\Question 1\Solution 1\Solution 1 Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\developer\source\repos\Justmop Assignment\Question 1\Solution 1\Solution 1 Data\bin\Debug\EntityFramework6.Npgsql.dll
+C:\Users\developer\source\repos\Justmop Assignment\Question 1\Solution 1\Solution 1 Data\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\developer\source\repos\Justmop Assignment\Question 1\Solution 1\Solution 1 Data\bin\Debug\Npgsql.dll
+C:\Users\developer\source\repos\Justmop Assignment\Question 1\Solution 1\Solution 1 Data\bin\Debug\System.Buffers.dll
+C:\Users\developer\source\repos\Justmop Assignment\Question 1\Solution 1\Solution 1 Data\bin\Debug\System.Memory.dll
+C:\Users\developer\source\repos\Justmop Assignment\Question 1\Solution 1\Solution 1 Data\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\developer\source\repos\Justmop Assignment\Question 1\Solution 1\Solution 1 Data\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\developer\source\repos\Justmop Assignment\Question 1\Solution 1\Solution 1 Data\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\developer\source\repos\Justmop Assignment\Question 1\Solution 1\Solution 1 Data\bin\Debug\System.Text.Json.dll
+C:\Users\developer\source\repos\Justmop Assignment\Question 1\Solution 1\Solution 1 Data\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\developer\source\repos\Justmop Assignment\Question 1\Solution 1\Solution 1 Data\bin\Debug\System.ValueTuple.dll
+C:\Users\developer\source\repos\Justmop Assignment\Question 1\Solution 1\Solution 1 Data\bin\Debug\EntityFramework.xml
+C:\Users\developer\source\repos\Justmop Assignment\Question 1\Solution 1\Solution 1 Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\developer\source\repos\Justmop Assignment\Question 1\Solution 1\Solution 1 Data\bin\Debug\EntityFramework6.Npgsql.xml
+C:\Users\developer\source\repos\Justmop Assignment\Question 1\Solution 1\Solution 1 Data\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\developer\source\repos\Justmop Assignment\Question 1\Solution 1\Solution 1 Data\bin\Debug\Npgsql.pdb
+C:\Users\developer\source\repos\Justmop Assignment\Question 1\Solution 1\Solution 1 Data\bin\Debug\Npgsql.xml
+C:\Users\developer\source\repos\Justmop Assignment\Question 1\Solution 1\Solution 1 Data\bin\Debug\System.Buffers.xml
+C:\Users\developer\source\repos\Justmop Assignment\Question 1\Solution 1\Solution 1 Data\bin\Debug\System.Memory.xml
+C:\Users\developer\source\repos\Justmop Assignment\Question 1\Solution 1\Solution 1 Data\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\developer\source\repos\Justmop Assignment\Question 1\Solution 1\Solution 1 Data\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\developer\source\repos\Justmop Assignment\Question 1\Solution 1\Solution 1 Data\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\developer\source\repos\Justmop Assignment\Question 1\Solution 1\Solution 1 Data\bin\Debug\System.Text.Json.xml
+C:\Users\developer\source\repos\Justmop Assignment\Question 1\Solution 1\Solution 1 Data\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\developer\source\repos\Justmop Assignment\Question 1\Solution 1\Solution 1 Data\bin\Debug\System.ValueTuple.xml
+C:\Users\developer\source\repos\Justmop Assignment\Question 1\Solution 1\Solution 1 Data\obj\Debug\Solution1.Data.csprojAssemblyReference.cache
+C:\Users\developer\source\repos\Justmop Assignment\Question 1\Solution 1\Solution 1 Data\obj\Debug\Solution1.Data.csproj.CopyComplete
+C:\Users\developer\source\repos\Justmop Assignment\Question 1\Solution 1\Solution 1 Data\obj\Debug\Solution 1 Data.dll
+C:\Users\developer\source\repos\Justmop Assignment\Question 1\Solution 1\Solution 1 Data\obj\Debug\Solution 1 Data.pdb

@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="postgresModel.Store" Provider="Npgsql" ProviderManifestToken="10.13" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="cheapest_currency">
+          <Key>
+            <PropertyRef Name="featureid" />
+          </Key>
+          <Property Name="featureid" Type="int4" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="globalid" Type="uuid" Nullable="false" />
+          <Property Name="symbol" Type="varchar" MaxLength="8000" />
+          <Property Name="amount" Type="float8" />
+        </EntityType>
+        <EntityContainer Name="postgresModelStoreContainer">
+          <EntitySet Name="cheapest_currency" EntityType="Self.cheapest_currency" Schema="dbo" store:Type="Tables" />
+        </EntityContainer>
+      </Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="postgresModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityContainer Name="SolutionDbContext" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="cheapest_currency" EntityType="postgresModel.cheapest_currency" />
+        </EntityContainer>
+        <EntityType Name="cheapest_currency">
+          <Key>
+            <PropertyRef Name="featureid" />
+          </Key>
+          <Property Name="featureid" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="globalid" Type="Guid" Nullable="false" />
+          <Property Name="symbol" Type="String" MaxLength="8000" FixedLength="false" Unicode="true" />
+          <Property Name="amount" Type="Double" />
+        </EntityType>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="postgresModelStoreContainer" CdmEntityContainer="SolutionDbContext">
+        <EntitySetMapping Name="cheapest_currency">
+            <EntityTypeMapping TypeName="postgresModel.cheapest_currency">
+              <MappingFragment StoreEntitySet="cheapest_currency">
+                <ScalarProperty Name="amount" ColumnName="amount" />
+                <ScalarProperty Name="symbol" ColumnName="symbol" />
+                <ScalarProperty Name="globalid" ColumnName="globalid" />
+                <ScalarProperty Name="featureid" ColumnName="featureid" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="true" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>
